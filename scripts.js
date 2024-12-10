@@ -334,14 +334,14 @@ function onDocumentMouseClick(event) {
                         const videoData = {
 
                             dot1: {
-                                'platform': 'youtube',
-                                'id': 'Dvh4w3I5d6o',
+                                'platform': 'vimeo',
+                                'id': '1037901499',
                                 'start': 165
                             },
                         
                             dot2: {
-                                'platform': 'youtube',
-                                'id': 'qn7_XMbbNH8',
+                                'platform': 'vimeo',
+                                'id': '1037904056',
                                 'start': 10,
                             },
                         
