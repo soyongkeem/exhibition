@@ -121,6 +121,15 @@ textureLoader.load(
         const longitude13 = 360;
         addRedCircleOnGlobe(latitude13, longitude13, "dot13"); // uk
 
+        const latitude131 = 59;
+        const longitude131 = 350;
+        addRedCircleOnGlobe(latitude131, longitude131, "dot131"); // 노르웨이
+
+        const latitude132 = 55;
+        const longitude132 = 323;
+        addRedCircleOnGlobe(latitude132, longitude132, "dot132"); // 러시아
+
+
 
 
 
@@ -153,6 +162,14 @@ textureLoader.load(
         const longitude182 = 340;
         addRedCircleOnGlobe(latitude182, longitude182, "dot182"); // 콩고
 
+        const latitude183 = 36;
+        const longitude183 = 358;
+        addRedCircleOnGlobe(latitude183, longitude183, "dot183"); // 알제리
+
+
+
+
+
 
         const latitude19 = -35;
         const longitude19 = 211;
@@ -169,6 +186,12 @@ textureLoader.load(
         const latitude22 = -14;
         const longitude22 = 172;
         addRedCircleOnGlobe(latitude22, longitude22, "dot22"); //사모아
+
+        const latitude221 = -8;
+        const longitude221 = 215;
+        addRedCircleOnGlobe(latitude221, longitude221, "dot221"); //파푸아뉴기니
+
+
 
 
 
@@ -211,7 +234,11 @@ textureLoader.load(
 
         const latitude30 = -36;
         const longitude30 = 57;
-        addRedCircleOnGlobe(latitude30, longitude30, "dot30"); // United States
+        addRedCircleOnGlobe(latitude30, longitude30, "dot30"); //아르헨티나
+
+        const latitude31 = -16;
+        const longitude31 = 68;
+        addRedCircleOnGlobe(latitude31, longitude31, "dot31"); //아르헨티나
 
     }
 );
@@ -449,6 +476,27 @@ function onDocumentMouseClick(event) {
                                 'start': 55,
                             },
                         
+                        
+                            dot131: {
+                                'platform': 'vimeo',
+                                'id': '1038086075',
+                                'start': 91,
+                            },
+                               
+                            
+                            dot132: {
+                                'platform': 'youtube',
+                                'id': 'Mo9KIpPOeqg',
+                                'start': 55,
+                            },
+                        
+
+
+
+
+
+
+
                             dot14: {
                                 'platform': 'vimeo',
                                 'id': '138337404',
@@ -463,8 +511,8 @@ function onDocumentMouseClick(event) {
                         
                             dot16: {
                                 'platform': 'youtube',
-                                'id': 'r2GBqKgwk8Y',
-                                'start': 67,
+                                'id': '6Jhb4mCYEH0',
+                                'start': 160,
                             },
                         
                             dot17: {
@@ -491,6 +539,18 @@ function onDocumentMouseClick(event) {
                                 'start': 32,
                             },
                         
+
+                            dot183: {
+                                'platform': 'vimeo',
+                                'id': '1038089897',
+                                'start': 32,
+                            },
+
+
+
+
+
+
                             dot19: {
                                 'platform': 'vimeo',
                                 'id': '1035822549',
@@ -515,6 +575,17 @@ function onDocumentMouseClick(event) {
                                 'start': 34,
                             },
                         
+                            dot221: {
+                                'platform': 'youtube',
+                                'id': 'L5kB20SXQLg',
+                                'start': 58,
+                            },
+                        
+
+
+
+
+
                             dot23: {
                                 'platform': 'vimeo',
                                 'id': '1035830363',
@@ -573,7 +644,14 @@ function onDocumentMouseClick(event) {
                                 'platform': 'youtube',
                                 'id': 'oHGnxHfQ4IM',
                                 'start': 50,
+                            },
+
+                            dot31: {
+                                'platform': 'vimeo',
+                                'id': '1038087994',
+                                'start': 38,
                             }
+
                         };
                         const video = videoData[dotName];
                         if (video) {
