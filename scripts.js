@@ -643,7 +643,7 @@ function playVimeoVideo(videoId, start) {
     const youtubePlayer = document.getElementById("youtubePlayer");
     const player = document.createElement('iframe');
     player.width = "420"; // Vimeo 동영상 가로 크기
-    player.height = "260"; // Vimeo 동영상 세로 크기
+    player.height = "280"; // Vimeo 동영상 세로 크기
     player.src = `https://player.vimeo.com/video/${videoId}?autoplay=1#t=${start}s&loop=1&title=0&byline=0&portrait=0`;
     player.frameBorder = "0";
     player.allow = "autoplay; fullscreen; picture-in-picture";
