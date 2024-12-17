@@ -749,7 +749,7 @@ let animationFrameId = null; // requestAnimationFrame ID 저장
 // 플레이/스탑 버튼 생성 및 스타일 설정
 const playStopButton = document.createElement('button');
 playStopButton.id = 'playStopButton';
-playStopButton.textContent = isAnimationRunning ? '▐▐' : '▶︎';
+playStopButton.textContent = isAnimationRunning ? '⏸' : '▶︎';
 document.body.appendChild(playStopButton);
 
 // 애니메이션 시작 함수
